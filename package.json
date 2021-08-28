@@ -1,0 +1,28 @@
+{
+  "name": "crypto-portfolio",
+  "version": "1.0.0",
+  "description": "A command line program that returns the latest portfolio value per token in USD",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Propine/2b-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Propine/2b-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Propine/2b-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.3"
+  }
+}
